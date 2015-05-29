@@ -29,6 +29,8 @@ module Bessie
     # autoload lib path
     config.autoload_paths += %W(#{config.root}/lib)
     config.autoload_paths += Dir["#{config.root}/lib/**/"]
+    
+    app_path = File.expand_path(File.dirname(__FILE__) + '/..')
 
   end
 end
