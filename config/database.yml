@@ -5,7 +5,7 @@ development:
   adapter: postgresql
   encoding: utf8
   database: bessie_development
-  username: computer
+  username: Computer
   host: localhost
   pool: 5
   port: 5432
